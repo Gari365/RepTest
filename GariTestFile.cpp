@@ -2,13 +2,15 @@
 using namespace std;
 
 int main () {
-  int p;
-  cin>>p;
-
-  if (p>75)
-    cout<<"Nilai GAGAL"<<endl;
-  else
-    cout<<"Nilai GAGAL"<<endl;
+  int nilai;
+  string mapel;
+  cin>>nilai;
+  cin>>mapel;
   
+  if (nilai>=75)
+    cout<<"Nilai mata pelajaran "<< mapel<< " LULUS."<<endl;
+  else
+    cout<<"Nilai mata pelajaran "<< mapel<< " GAGAL."<<endl;
+
 return 0;
 }
